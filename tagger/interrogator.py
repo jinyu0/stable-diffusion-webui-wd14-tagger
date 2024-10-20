@@ -51,7 +51,7 @@ class Interrogator:
     input = {
         "cumulative": False,
         "large_query": False,
-        "unload_after": False,
+        "unload_after": True,
         "add": '',
         "keep": '',
         "exclude": '',

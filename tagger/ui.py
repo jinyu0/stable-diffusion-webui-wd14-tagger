@@ -315,7 +315,7 @@ def on_ui_tabs():
                         unload_after = utils.preset.component(
                             gr.Checkbox,
                             label='Unload model after running',
-                            value=False
+                            value=True
                         )
                     with gr.Row(variant='compact'):
                         tag_input["search"] = utils.preset.component(
